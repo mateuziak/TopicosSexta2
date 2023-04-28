@@ -2,13 +2,21 @@
 GET http://localhost:3000
 
 ### Requisição passando parametros na URL
-GET http://localhost:3000/12/arroz
+GET http://localhost:3000/arroz
 
 ### Requiisição passando informação pelo corpo da requisição
 POST http://localhost:3000
 Content-Type: application/json
 
 {
-    "nome" : "Dolly",
+    "nome" : "Frango",
+    "preco" : "10"
+}
+{
+    "nome" : "Frango",
+    "preco" : "10"
+}
+{
+    "nome" : "Frango",
     "preco" : "10"
 }
